@@ -2,7 +2,7 @@
 
 #===============================================================================================
 #   System Required:  Debian 7+
-#   Description:  Install OpenConnect VPN server for Debian
+#   Description:Install OpenConnect VPN server for Debian
 #   Ocservauto For Debian Copyright (C) liyangyijie released under GNU GPLv2
 #   Ocservauto For Debian Is Based On SSLVPNauto v0.1-A1
 #   SSLVPNauto v0.1-A1 For Debian Copyright (C) Alex Fang frjalex@gmail.com released under GNU GPLv2
@@ -38,6 +38,7 @@ function die(){
     echo -e "\033[33mERROR: $1 \033[0m" > /dev/null 1>&2
     exit 1
 }
+
 #info echo
 function print_info(){
     echo -n -e '\e[1;36m'
