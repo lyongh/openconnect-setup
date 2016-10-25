@@ -38,7 +38,6 @@ function die(){
     echo -e "\033[33mERROR: $1 \033[0m" > /dev/null 1>&2
     exit 1
 }
-
 #info echo
 function print_info(){
     echo -n -e '\e[1;36m'
